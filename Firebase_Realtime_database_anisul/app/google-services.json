@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306396733886",
+    "project_id": "realtime-database-anisul",
+    "storage_bucket": "realtime-database-anisul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306396733886:android:ef8d58abdb237a4d7ad9ef",
+        "android_client_info": {
+          "package_name": "edu.ewubd.firebase_realtime_database_anisul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306396733886-04mig1nfpeqtvisafcnup4nk53g4sd77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcpvKM0IpSZ55UfS4OoM3OVBOei1D39Ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306396733886-04mig1nfpeqtvisafcnup4nk53g4sd77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1068848993912",
+    "project_id": "fir-project-c49ea",
+    "storage_bucket": "fir-project-c49ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068848993912:android:7d13b33e342cd7ec03bf8d",
+        "android_client_info": {
+          "package_name": "edu.ewubd.firebase_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068848993912-ljc4o6mc7oj0u8lqfb7p9jovjonckcic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3zDzgetfgPvXW4jM9Ete16c_6l_ZzTm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068848993912-ljc4o6mc7oj0u8lqfb7p9jovjonckcic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

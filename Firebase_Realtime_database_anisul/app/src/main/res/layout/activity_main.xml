@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name_id1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Enter your name"
+        android:layout_margin="30dp" />
+    <EditText
+        android:id="@+id/age_id_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="Enter your Age"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/save_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Save Data"
+        android:backgroundTint="#F45042"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"></Button>
+    <Button
+        android:id="@+id/find_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Find Data"
+        android:backgroundTint="#F45042"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"></Button>
+
+
+</LinearLayout>

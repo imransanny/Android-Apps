@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217635759794",
+    "project_id": "imagee-store",
+    "storage_bucket": "imagee-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217635759794:android:0613f21a55d0213c9b8bab",
+        "android_client_info": {
+          "package_name": "edu.ewubd.storeandretrievefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217635759794-9uhdvsunm98lhq6724su5c705pa6j6t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__t3i5u_amUKM1kDVWGKESW_downZjZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217635759794-9uhdvsunm98lhq6724su5c705pa6j6t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
