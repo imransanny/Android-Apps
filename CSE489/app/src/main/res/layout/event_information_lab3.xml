@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Event Information"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="7"
+        android:background="@color/white"
+        android:stretchColumns="1"
+        >
+
+
+        <TableRow
+            android:layout_marginTop="5dp">
+            <TextView
+                android:text="Name "
+                android:textSize="18sp"/>
+
+
+
+            <EditText
+                android:id="@+id/name_id"
+                android:inputType="text"
+                android:gravity="bottom"/>
+
+
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+
+                android:text="Place "
+                android:textSize="18sp"/>
+
+
+
+            <EditText
+                android:id="@+id/place_id"
+                android:inputType="text"
+                android:gravity="bottom"/>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Type "
+                android:textSize="18sp"/>
+
+
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/indoor_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Indoor"
+                    android:layout_weight="1">
+
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/outdoor_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Outdoor"
+                    android:layout_weight="1">
+
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/online_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:layout_weight="1"
+                    >
+
+                </RadioButton>
+
+
+            </RadioGroup>
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Date &amp; Time "
+                android:textSize="18sp"/>
+
+
+
+            <EditText
+                android:id="@+id/date_time_id"
+                android:inputType="datetime"
+                android:gravity="bottom"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Capacity "
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/capacity_id"
+                android:inputType="number"
+                android:gravity="bottom"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Budget "
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:id="@+id/budget_id"
+                android:inputType="number"
+                android:gravity="bottom"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Email "
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/Email_id"
+                android:inputType="textEmailAddress"
+                android:gravity="bottom"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom">
+            <TextView
+                android:text="Phone "
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/phone_id"
+                android:inputType="phone"
+                android:gravity="bottom"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:gravity="bottom"
+            >
+            <TextView
+                android:text="Description "
+                android:textSize="18sp"/>
+
+            <EditText
+                android:gravity="bottom"
+                android:inputType="text"
+                android:id="@+id/description_id"/>
+
+        </TableRow>
+
+
+
+        <TextView
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:text="Error message Will be " />
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp">
+        <Button
+            android:id="@+id/cancle_Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:text="Cancle"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:text="Event"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:id="@+id/save_button"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFC107"
+            android:textColor="@color/black"
+            android:text="Save"
+            android:textSize="18sp"
+            android:gravity="center">
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

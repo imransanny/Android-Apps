@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFE57F"
+    android:text="Event Details"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Name:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Event Name"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Date:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventDateTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Event Date"
+            android:layout_marginTop="5dp"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Place:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventplace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Event Place"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:background="#ECE4A4"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Capacity:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventCapacity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Event Capacity"
+            android:layout_marginTop="5dp"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Type:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventtype"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Event type"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Budget:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventBud"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Budget"
+            android:background="#ECE4A4"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="details:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+
+            android:id="@+id/tvEventDes"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:text="Description"
+            android:layout_marginTop="5dp"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Email:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+
+            android:id="@+id/tvEventEmail"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_marginTop="5dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#F3EDC0"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Phone:"
+            android:background="#ECE4A4"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/tvEventPhone"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_marginTop="5dp"
+            android:text="Phone"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="#F3EDC0"/>
+
+
+    </LinearLayout>
+
+
+<Button
+    android:id="@+id/backbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FF9E80"
+    android:text="back"
+    android:textStyle="bold"
+    android:textSize="25sp"
+   android:gravity="center"
+    android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
