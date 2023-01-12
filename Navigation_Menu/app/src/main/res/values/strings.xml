@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation_Menu</string>
+
+
+    <string name="open" />
+    <string name="close"></string>
+
+</resources>

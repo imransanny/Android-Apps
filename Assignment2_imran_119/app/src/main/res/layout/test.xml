@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEDE7"
+    >
+
+    <TextView
+        android:id="@+id/name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Name"/>
+    <EditText
+        android:id="@+id/name_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+       <TextView
+        android:id="@+id/age_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Age"/>
+    <EditText
+        android:id="@+id/age_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+       <TextView
+        android:id="@+id/Gender_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Gender"/>
+
+    <EditText
+        android:id="@+id/Gender_edit_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/Add_data_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="Add Data"
+        />
+    <Button
+        android:id="@+id/display_alldata_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="Display All Data"
+        />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lay_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_shade"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/image_view_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/discount_stratergy"
+
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center">
+            <TextView
+                android:id="@+id/tvCAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAT"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:textColor="@color/white"
+                android:background="#FF5722"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/Item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="Game	মেসির চোখে এমবাপ্পে, এমবাপ্পের চোখে মেসি"
+                android:ellipsize="end"
+                android:maxLines="2"/>
+            <TextView
+                android:id="@+id/tvitemdes"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আর মাত্র একটা ম্যাচ। সে ম্যাচের বাধা ফ্রান্স–আর্জেন্টিনার যারাই পেরোবে, তারাই হবে বিশ্ব চ্যাম্পিয়ন। শিরোপার জয়ের লক্ষ্যে আর্জেন্টিনার বড় ভরসার নাম লিওনেল মেসি এবং ফ্রান্সের আস্থা থাকবে এমবাপ্পের ওপর। মেসি–এমবাপ্পের দুজন আছেনও দুর্দান্ত ছন্দে।"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

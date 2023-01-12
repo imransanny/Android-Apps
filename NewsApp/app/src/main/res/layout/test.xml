@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ECE4A4"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:id="@+id/tvEventDateTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event Date"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/tvEventPlaceName"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:text="Event Place name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#F3EDC0"/>
+    <TextView
+
+        android:id="@+id/tvEventEmail"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#F3EDC0"/>
+    <TextView
+
+        android:id="@+id/tvEventPhone"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+
+        android:text="Phone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#F3EDC0"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ECE4A4"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvEventcapacity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event Name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:id="@+id/tvEventBudget"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event Date"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ECE4A4"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvEventtype"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Event type"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:id="@+id/tvEventDescription"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Description"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

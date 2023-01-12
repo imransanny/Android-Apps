@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".News_Details"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/lay_cover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        >
+        <ImageView
+            android:id="@+id/coverimg_newsdetais"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/discount_stratergy"
+            android:scaleType="centerCrop"
+
+            />
+<TextView
+    android:id="@+id/Tv_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ফাইনালের আগে ফ্রান্স দলে ছড়িয়ে পড়ছে ‘ক্যামেল ভাইরাস’"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp"
+    android:background="#86000000"
+    android:textSize="18sp"
+    android:maxLines="2"
+    android:ellipsize="end"
+android:textColor="@color/white"
+    android:gravity="center" />
+    </RelativeLayout>
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay_cover"
+            android:layout_alignParentBottom="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Tv_desctiop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আর্জেন্টিনার বিপক্ষে ফাইনালের আগে একটু যেন আতঙ্ক ছড়িয়ে পড়েছে ফ্রান্স দলে। ‘ক্যামেল ভাইরাস’–এ আক্রান্ত হয়ে মরক্কোর বিপক্ষে সেমিফাইনালে খেলতে পারেননি ফ্রান্সের ডিফেন্ডার দায়োত উপামেকানো ও আন্দ্রিয়াঁ রাবিও। এবার ফরোয়ার্ড কিংসলি কোমানও একই ভাইরাসে আক্রান্ত বলে মনে করা হচ্ছে।"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:textColor="#BC000000"
+                    android:gravity="start"
+                    />
+
+
+            </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatAction_buttion_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF9800"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@drawable/icons8">
+
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+
+</RelativeLayout>
