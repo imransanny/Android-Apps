@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22d6ff"
+        android:stretchColumns="1"
+        android:collapseColumns="">
+
+        <TableRow
+            android:id="@+id/title_rowid"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:paddingLeft="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Student Details"
+                android:layout_span="4"
+                android:layout_gravity="center"
+
+                ></TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/table_headerid2"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+          >
+            <TextView
+                android:textSize="20dp"
+                android:text="id"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                >
+
+            </TextView>
+            <TextView
+                android:textSize="20dp"
+                android:text=" name"
+
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="gpa"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="date"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table_headerid3"
+            android:background="@color/white"
+
+          >
+            <TextView
+                android:textSize="20dp"
+                android:text="2020"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                >
+
+            </TextView>
+            <TextView
+                android:textSize="20dp"
+                android:text=" imran hasan"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="5.00"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="2022"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+
+        </TableRow>
+<TableRow
+            android:id="@+id/table_headerid4"
+            android:background="@color/white"
+
+          >
+            <TextView
+                android:textSize="20dp"
+                android:text="2020"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                >
+
+            </TextView>
+            <TextView
+                android:textSize="20dp"
+                android:text="  hasan"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="5.00"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:text="2022"
+                android:layout_height="50sp"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:background="#78c785"
+                />
+
+        </TableRow>
+<TableRow
+   android:layout_marginTop="20dp"
+    >
+    <Button
+        android:layout_column="2"
+        android:text="submit"
+        ></Button>
+    <Button
+        android:layout_column="2"
+        android:text="clear"
+        ></Button>
+
+
+</TableRow>
+
+
+
+<TableRow
+
+   android:layout_marginTop="20dp"
+    >
+    <TextView
+        android:id="@+id/te1"
+        android:text="name :"
+        android:textSize="30sp"
+
+        >
+
+    </TextView>
+
+
+    <EditText>
+
+
+    </EditText>
+    <EditText>
+
+
+    </EditText>
+    <EditText>
+
+
+    </EditText>
+
+
+
+
+</TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
